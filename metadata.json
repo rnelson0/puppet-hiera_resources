@@ -1,14 +1,21 @@
 {
   "name": "rnelson0-hiera_resources",
-  "version": "0.9.0",
-  "author": "rnelson0",
+  "version": "0.9.1",
+  "author": "Rob Nelson",
   "summary": "Allow arbitrary definition of resources (classes and defined types) via hiera content while avoiding the hiera_hash/create_resources pattern.",
-  "license": "Apache 2.0",
+  "license": "Apache Version 2.0",
   "source": "https://github.com/rnelson0/hiera_resources",
   "project_page": "https://github.com/rnelson0/hiera_resources",
   "issues_url": "https://github.com/rnelson0/hiera_resources/issues",
   "dependencies": [
-    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "6"
+      ]
+    }
   ]
 }
 
