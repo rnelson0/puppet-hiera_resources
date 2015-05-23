@@ -1,0 +1,5 @@
+---
+test1:
+  notify:
+    title 1:
+      message: this is the first message stored in YAML
