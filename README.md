@@ -3,24 +3,13 @@
 #### Table of Contents
 
 1. [Overview](#overview)
-2. [Module Description - What the module does and why it is useful](#module-description)
-3. [Beginning with hiera_resources](#beginning-with-hiera_resources)
-4. [Usage - Configuration options and additional functionality](#usage)
-5. [Credit](#credit)
+2. [Beginning with hiera_resources](#beginning-with-hiera_resources)
+3. [Usage - Configuration options and additional functionality](#usage)
+4. [Credit](#credit)
 
 ## Overview
 
 Allow arbitrary definition of resources (classes and defined types) via hiera content while avoiding the hiera_hash/create_resources pattern.
-
-## Module Description
-
-If applicable, this section should have a brief description of the technology
-the module integrates with and what that integration enables. This section
-should answer the questions: "What does this module *do*?" and "Why would I use
-it?"
-
-If your module has a range of functionality (installation, configuration,
-management, etc.) this is the time to mention it.
 
 ## Beginning with hiera_resources
 
