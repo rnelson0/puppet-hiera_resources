@@ -35,6 +35,14 @@ hiera_resources() does not verify the contents of the hash or referenced
 resource type. It does accept a second value as a default value if the lookup
 fails, following the same tiered hierarchy as the hiera hash.
 
+Title-only or parameter-less resources can be created by leaving a dangling colon or an empty hash (`{}`). For example:
+
+    ----
+    title-only:
+      notify:
+        Title and message:
+        Title and message with empty hash: {}
+
 ## Usage
 
 Ensure that hiera_resources is in your `$modulepath` and that `pluginsync` is
@@ -47,3 +55,8 @@ This version of hiera_resources is based on
 [this excellent blog post](http://blog.yo61.com/assigning-resources-to-nodes-with-hiera-in-puppet/)
 by Robin Bowes and a subsequent
 [refactoring](https://github.com/reliantsecurity/hiera-resources).
+
+Contributions from:
+
+* [Sascha Spreitzer](https://github.com/sspreitzer)
+
