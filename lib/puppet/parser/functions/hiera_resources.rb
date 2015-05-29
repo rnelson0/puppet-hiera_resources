@@ -15,6 +15,12 @@ Puppet::Parser::Functions.newfunction(:hiera_resources) do |args|
   end
 
   function_hiera_hash(args).each do |type, resources|
+    # Allow resources without parameters (aka default parameters)
+    resources.each do |title, parameter|
+      if parameter == nil
+        resources[title] = {}
+      end
+    end
     # function_create_resources is no workie so we'll do this
     method = Puppet::Parser::Functions.function :create_resources
     send(method, [type, resources])

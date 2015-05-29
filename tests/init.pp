@@ -10,3 +10,5 @@
 # http://docs.puppetlabs.com/guides/tests_smoke.html
 #
 hiera_resources('test1')
+hiera_resources('test2')
+hiera_resources('test3')
