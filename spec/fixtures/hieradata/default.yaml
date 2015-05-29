@@ -3,3 +3,9 @@ test1:
   notify:
     title 1:
       message: this is the first message stored in YAML
+test2:
+  notify:
+    title 2: {}
+test3:
+  notify:
+    title 3:
