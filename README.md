@@ -1,5 +1,9 @@
 # hiera_resources
 
+[![Build Status](https://travis-ci.org/rnelson0/puppet-hiera_resources.png?branch=master)](https://travis-ci.org/rnelson0/puppet-hiera_resources)
+[![Puppet Forge](http://img.shields.io/puppetforge/v/rnelson0/hiera_resources.svg)](https://forge.puppetlabs.com/rnelson0/hiera_resources)
+[![Puppet Forge Downloads](http://img.shields.io/puppetforge/dt/rnelson0/hiera_resources.svg)](https://forge.puppetlabs.com/rnelson0/hiera_resources)
+
 #### Table of Contents
 
 1. [Overview](#overview)
