@@ -63,3 +63,4 @@ by Robin Bowes and a subsequent
 Contributions from:
 
 * [Sascha Spreitzer](https://github.com/sspreitzer)
+* [Shane Madden](https://github.com/shanemadden)
