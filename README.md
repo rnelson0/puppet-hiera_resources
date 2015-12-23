@@ -3,6 +3,8 @@
 [![Build Status](https://travis-ci.org/rnelson0/puppet-hiera_resources.png?branch=master)](https://travis-ci.org/rnelson0/puppet-hiera_resources)
 [![Puppet Forge](http://img.shields.io/puppetforge/v/rnelson0/hiera_resources.svg)](https://forge.puppetlabs.com/rnelson0/hiera_resources)
 [![Puppet Forge Downloads](http://img.shields.io/puppetforge/dt/rnelson0/hiera_resources.svg)](https://forge.puppetlabs.com/rnelson0/hiera_resources)
+[![Stories in Ready](https://badge.waffle.io/rnelson0/puppet-hiera_resources.svg?label=ready&title=Ready)](http://waffle.io/rnelson0/puppet-modules)
+[![Stories In Progress](https://badge.waffle.io/rnelson0/puppet-hiera_resources.svg?label=in progress&title=In Progress)](http://waffle.io/rnelson0/puppet-modules)
 
 #### Table of Contents
 
