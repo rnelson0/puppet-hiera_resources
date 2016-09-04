@@ -1,8 +1,8 @@
 {
   "name": "rnelson0-hiera_resources",
-  "version": "1.0.2",
+  "version": "999.999.999",
   "author": "Rob Nelson",
-  "summary": "Allow arbitrary definition of resources (classes and defined types) via hiera content while avoiding the hiera_hash/create_resources pattern.",
+  "summary": "Defunct module: Allow arbitrary definition of resources (classes and defined types) via hiera content while avoiding the hiera_hash/create_resources pattern. I suggest you use Puppet's own iteration in the future.",
   "license": "Apache-2.0",
   "source": "https://github.com/rnelson0/puppet-hiera_resources",
   "project_page": "https://github.com/rnelson0/puppet-hiera_resources",
